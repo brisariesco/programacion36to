@@ -1,0 +1,15 @@
+let evaluacion = prompt("Ingresa tu puntaje de nota ");
+
+evaluacion = parseFloat(evaluacion);
+
+if (evaluacion !== evaluacion || evaluacion < 1 || evaluacion > 10) {
+    console.log("Ingresa tu nota del 1 y 10.");
+} else if (evaluacion === 10) {
+    console.log("¡Excelente!");
+} else if (evaluacion >= 8) {
+    console.log("¡Muy Bien!");
+} else if (evaluacion >= 6) {
+    console.log("Aprobado");
+} else {
+    console.log("Reprobado");
+}

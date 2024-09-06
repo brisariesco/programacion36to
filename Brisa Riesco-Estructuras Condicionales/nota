@@ -1,0 +1,11 @@
+let nota = prompt("Ingrese la nota del examen:");
+
+nota = parseFloat(nota);
+
+if (nota > 7) {
+    console.log("Aprobado");
+} else if (nota > 4) {
+    console.log("Recuperar");
+} else {
+    console.log("Aplazo");
+}

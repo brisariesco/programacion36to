@@ -1,0 +1,14 @@
+function pedirEdad() {
+    return prompt("Ingrese su edad:");
+}
+
+function verificarEdad(edad) {
+    if (edad >= 18) {
+        console.log("Bienvenido al sitio.");
+    } else {
+        console.log("No puede ingresar al sitio.");
+    }
+}
+
+let edad = pedirEdad();
+verificarEdad(edad);

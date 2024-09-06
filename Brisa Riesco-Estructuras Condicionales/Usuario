@@ -1,0 +1,11 @@
+const usuario = "trailer";
+const contraseña = "trailercpg";
+
+const usuario_input = prompt("Ingrese su nombre de usuario:");
+const contraseña_input = prompt("Ingrese su contraseña:");
+
+if (usuario_input === usuario && contraseña_input === contraseña) {
+    console.log("Acceso autorizado");
+} else {
+    console.log("Acceso denegado");
+}
